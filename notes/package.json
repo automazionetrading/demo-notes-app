@@ -9,6 +9,7 @@
     "deploy": "sst deploy",
     "remove": "sst remove",
     "console": "sst console",
+    "test": "sst bind vitest run",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
@@ -17,7 +18,8 @@
     "aws-cdk-lib": "2.95.1",
     "constructs": "10.2.69",
     "sst": "^2.26.11",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
   },
   "workspaces": [
     "packages/*"
